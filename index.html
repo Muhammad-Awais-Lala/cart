@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <p class="logo">Ecommerce</p>
+            <i class="fa-solid fa-bag-shopping fa-lg" onclick=openCart()></i>
+        </div>
+    </header>
+    <main>
+        <h1>Shop Products</h1>
+        <section class="products">
+            
+        </section>
+<!-- //////////////////////////// cart ////////////////////////////////////// -->
+
+        <div id="cart">
+            <span id="cross" onclick= closeCart() ><i class="fa-solid fa-xmark fa-2x"></i></span>
+            <p class="title">Your Cart</p>
+            
+            <div class="cartProducts">
+            </div>
+            
+            <hr>
+            <p id="total">Total $ 0</p>
+            <span class="btn"><button>Buy Now</button></span>
+        </div>
+    </main>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/b41a0b907b.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
